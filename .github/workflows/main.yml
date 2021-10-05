@@ -16,5 +16,7 @@ jobs:
         server: cjw29.freevar.com
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
+        local-dir: ./lib/
+        server-dir: ./lib/
         state-name: state.json
         exclude: .eslintrc
