@@ -16,3 +16,4 @@ jobs:
         server: cjw29.freevar.com
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
+        exclude: .eslintrc
